@@ -10,7 +10,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         AppsFlyerLib.shared().appsFlyerDevKey = "GAx7MdJxvhAHXASNJ79vZb"
         AppsFlyerLib.shared().appleAppID = "6755929136"
         AppsFlyerLib.shared().isDebug = false
-        AppsFlyerLib.shared().waitForATTUserAuthorization(timeoutInterval: 5)
+        AppsFlyerLib.shared().start()
         
         return true
     }
